@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#reset{
+    margin-top:  30px;
+color:aliceblue;
+size: 10px;
+height: 30px;
+width: 60px;
+border-radius: 5px;
+position: absolute;
+justify-content: center;
+align-items: center;
+border: 2px solid white;
+background-color:transparent;
+display: block;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+    padding: 10em 10em;
+    background:url("photo2.jpg");
+    /* opacity: .5; */
+    background-position: centre;
+    background-repeat: no-repeat;
+    background-position: 100% 20%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: 2px solid red;
+}
+.p{
+    margin: auto;
+    width: 100px;
+    height: 70px;
+    background-color: rgb(24, 144, 54);
+    overflow:hidden;
+    margin-top: 40px;
+    border-radius:  3px solid yellow;
+
+} 
+.glass{
+    width: 500px;
+    height: 400px;
+    
+    padding: 50px;
+    color: rgb(255, 255, 255);
+    border-radius: 9px;
+    backdrop-filter: blur(100px);
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    box-shadow: 15px 15px 20px rgba(19, 89, 219, 0.878);
+    line-height: 1.5;
+    transform: translateY(-5%);
+    transition: transform .5s;
+    margin: auto;
+
+}
+.glass-1{
+    width: 500px;
+    height: 400px;
+    background-color: rgb(162, 220, 53);
+    padding: 50px;
+    color: #fff;
+    border-radius: 9px;
+    backdrop-filter: blur(50px);
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(45,23,60,.3);
+    line-height: 1.5;
+    transform: translateY(-5%);
+    transition: transform .5s;
+    font-size: 1.7em;
+}
+.glass h1{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.glass h2{
+    font-size: 1rem;
+    margin-top: 20px;
+}
+.input{
+    width: 100%;
+    height: 70px;
+    overflow:hidden;
+    margin-top: 40px;
+    font-style: oblique;
+}
+.input input{
+    width: 100%;
+    height: 70px;
+    border:none;
+    padding-left: 30px;
+    padding-top: 0;
+    outline: none;
+    font-size: 1.5rem;
+    border-radius: 20px;
+}
+.glass p {
+    font-size: 1.6rem;
+    margin-top: 30px;
+}
+.box1{
+    height: 40px;
+    width: 300px;
+    border: 3px solid white;
+    background-color: #fff;
+    width: 100%;
+    height: 70px;
+    border:none;
+    padding-left: 30px;
+    padding-top: 15px;
+    outline: none;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    color: black;
+}
